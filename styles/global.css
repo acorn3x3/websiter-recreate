@@ -6,10 +6,9 @@
 
 body {
     height: 100vh;
-    font-family: 'Rubik', san-serif;
+    font-family: 'Work Sans', sans-serif;
     background: white;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
+    font-weight: 700;
 }
 
 header {
@@ -22,7 +21,48 @@ header {
 
 main {
     padding: 20px;
+    grid: border: solid; 
+    
 }
+
+.container {
+    grid-template-columns: 2fr 2fr;
+      
+}
+
+.content-sub {
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+
+}
+
+
+
+/* 
+main {
+    padding: 20px;
+    .Content-main 
+    grid: border: solid;;   
+    {
+        grid-area: Content-main;
+    }
+
+    .Content-sub-1 {
+        grid-area: Content-sub-1;
+    }
+
+    .content-sub-2 {
+        grid-area: content-sub-2;
+    }
+
+    .content-sub-3- {
+        grid-area: content-sub-3;
+    }
+
+    .content-sub-4 {
+        grid-area: content-sub-4;
+    }
+} */
 
 footer {
     position: sticky;
@@ -33,3 +73,65 @@ footer {
     justify-content: flex-end;
     background-color: var(--footer-background);
 }
+
+
+
+.content-main {
+    border: 1px;
+    border-style: solid;
+    display: grid;
+    grid-template-columns: 12 12 12;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+}
+
+.news-content {
+
+display: grid;
+
+}
+
+/* 
+.container {
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    }
+
+.content-main {
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    margin-top: 15px
+    margin-bottom: 15px;
+}
+
+.content-sub-1 {
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    margin-top: 15px
+    margin-bottom: 15px;
+}
+
+.content-sub-2 {
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    margin-top: 15px
+    margin-bottom: 15px;
+}
+ 
+.content-sub-3 {
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    margin-top: 15px
+    margin-bottom: 15px;
+}
+
+.content-sub-4 {
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    margin-top: 15px
+    margin-bottom: 15px;
+}
+ */
