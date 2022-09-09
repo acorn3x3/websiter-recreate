@@ -6,14 +6,13 @@
 
 body {
     height: 100vh;
-    font-family: 'Rubik', san-serif;
-    background: var(--background);
-    display: grid;
-    grid-template-rows: auto 1fr auto;
+    font-family: 'Work Sans', sans-serif;
+    background: white;
+    font-weight: 700;
 }
 
 header {
-    position: sticky;
+    position: relative;
     top: 0;
     display: flex;
     align-items: center;
@@ -22,14 +21,124 @@ header {
 
 main {
     padding: 20px;
+    grid: border: solid; 
+    
 }
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+      
+}
+
+.content-sub {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    
+    
+}
+
+.article-2 {
+    grid-area: auto;
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    margin-top: 15px
+    margin-bottom: 15px;
+
+}
+
+
+/* 
+main {
+    padding: 20px;
+    .Content-main 
+    grid: border: solid;;   
+    {
+        grid-area: Content-main;
+    }
+
+    .Content-sub-1 {
+        grid-area: Content-sub-1;
+    }
+
+    .content-sub-2 {
+        grid-area: content-sub-2;
+    }
+
+    .content-sub-3- {
+        grid-area: content-sub-3;
+    }
+
+    .content-sub-4 {
+        grid-area: content-sub-4;
+    }
+} */
 
 footer {
     position: sticky;
     bottom: 0;
     padding: 7px 20px;
-    font-size: .8em;
+    font-size: 0.8em;
     display: flex;
     justify-content: flex-end;
     background-color: var(--footer-background);
 }
+
+
+
+.content-main {
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    margin-top: 15px
+    margin-bottom: 15px;
+}
+
+.content-main {
+    display grid: 12px;
+
+}
+
+/* 
+.container {
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    }
+
+.content-main {
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    margin-top: 15px
+    margin-bottom: 15px;
+}
+
+.content-sub-1 {
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    margin-top: 15px
+    margin-bottom: 15px;
+}
+
+.content-sub-2 {
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    margin-top: 15px
+    margin-bottom: 15px;
+}
+ 
+.content-sub-3 {
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    margin-top: 15px
+    margin-bottom: 15px;
+}
+
+.content-sub-4 {
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    margin-top: 15px
+    margin-bottom: 15px;
+}
+ */
